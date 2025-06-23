@@ -1,12 +1,13 @@
 // File: src/components/Navbar.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const menuList = [
-    { name: "Home", link: "#home" },
-    { name: "Portfolio", link: "#portfolio" },
-    { name: "Todo App", link: "#todo" },
-    { name: "Profile", link: "#profile" },
+    { name: "Home", link: "/home" },
+    { name: "Portfolio", link: "/projects" },
+    { name: "Contact", link: "/contact" },
+    { name: "Profile", link: "/profile" },
 ];
 
 function Navbar() {
