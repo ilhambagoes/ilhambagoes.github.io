@@ -1,0 +1,26 @@
+/* File: src/components/Projects.css */
+.projects {
+  margin-bottom: 2rem;
+}
+
+.projects h2 {
+  margin-bottom: 1rem;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  margin: 0.5rem 0;
+}
+
+.projects a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.projects a:hover {
+  text-decoration: underline;
+}
