@@ -8,12 +8,10 @@ function Home() {
       <div className="home-overlay">
         <div className="home-content">
           <h1>
-            Create <span>your own website</span>—<br />
-            low-cost and hassle-free.
+            Hello <span>World</span> !<br />
           </h1>
-          <p>A website with a custom domain name</p>
-          <button className="home-button">Start your free trial</button>
-          <p className="no-credit">No credit card required.</p>
+          <p>Welcome to my website</p>
+          <p className="no-credit">Begin your adventure.</p>
         </div>
       </div>
 

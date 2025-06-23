@@ -9,6 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  font-family: sans-serif;
 }
 
 .logo {
@@ -26,11 +27,16 @@
 }
 
 .nav-links li a {
+  color: #333;
   text-decoration: none;
-  color: #2980b9;
-  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+  transition: all 0.2s ease;
 }
 
 .nav-links li a:hover {
-  text-decoration: underline;
+  color: #00acee;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  border-color: #ccc;
 }
